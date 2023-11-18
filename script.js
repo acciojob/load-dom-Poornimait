@@ -2,4 +2,4 @@
 function domload(){
 	document.body.innerHTML="DOM load succes";
 }
-domload();
+ document.addEventListener('DOMContentLoaded', domload);
